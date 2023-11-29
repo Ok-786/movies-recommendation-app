@@ -1,54 +1,37 @@
 <div class="container" style="margin-top:70px;">
     <div class="row">
         <div class="col-sm-12">
-            <div *ngFor= "let business of business_list | async">
-                <div class="container">
-                
-                    <div class="card-box">
-                        <div class="img">
-                            <img src="assets/desktop-image.jpg" alt="img-desktop" class="desktop_img">
-                
-                            <img src="assets/mobile-image.jpg" alt="img-mobile" class="mobile_img">
-                        </div>
-                
-                        <div class="card_text">
-                            <p class="product">Perfume</p>
-                            <h2 class="product_title">{{ business.name }}</h2>
-                
-                            <p class="description">This business is based in
-                            {{ business.city }}</p>
-                
-                            <p class="price">
-                                {{ business.review_count }}
-                                reviews available
-                            </p>
-                
-                           
-                        </div>
+            <div *ngFor="let business of business_list | async">
+                <div class="card text-white bg-primary mb-3" style="width: 50rem; margin: auto" style="cursor : pointer"
+                    [routerLink]="['/businesses', business._id]">
+                    <div class="card-header">
+                        {{ business.name }}
                     </div>
-                
+                    <div class="card-body">
+                        This business is based in
+                        {{ business.city }}
+                    </div>
+                    <div class="card-footer">
+                        {{ business.review_count }}
+                        reviews available
+                    </div>
                 </div>
-
-
-                
             </div>
         </div> <!-- col -->
     </div> <!-- row -->
     <div class="row">
         <div class="col-sm-6">
-            <button class="btn btn-primary"
-                    (click) = "previousPage()">
-                    Previous
+            <button class="btn btn-primary" (click)="previousPage()">
+                Previous
             </button>
         </div>
 
-            <div class="col-sm-6 text-end">
-                <button class="btn btn-primary"
-                        (click) = "nextPage()">
-                        nextPage
-                </button>
-            
-            
+        <div class="col-sm-6 text-end">
+            <button class="btn btn-primary" (click)="nextPage()">
+                nextPage
+            </button>
+
+
         </div>
-        </div>
+    </div>
 </div> <!-- container -->
