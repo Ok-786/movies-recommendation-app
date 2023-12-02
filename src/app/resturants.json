@@ -1,0 +1,439 @@
+[
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772686" },
+    "name": "Restaurant A",
+    "address": "123 Main Street, Cityville",
+    "image": "https://example.com/restaurant-a-image.jpg",
+    "reviews": [
+      {
+        "customerName": "John Doe",
+        "review": "Great food and excellent service! Highly recommended.",
+        "rating": 5
+      },
+      {
+        "customerName": "Jane Smith",
+        "review": "Nice ambiance, but food could be better.",
+        "rating": 3
+      }
+    ],
+    "rating": 4
+  },
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772687" },
+    "name": "Restaurant B",
+    "address": "456 Oak Street, Townsville",
+    "image": "https://example.com/restaurant-b-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Alice Johnson",
+        "review": "Fantastic experience! Will visit again.",
+        "rating": 4
+      },
+      {
+        "customerName": "Bob Wilson",
+        "review": "Average food, but great location.",
+        "rating": 3
+      }
+    ],
+    "rating": 3.5
+  },
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772688" },
+    "name": "Restaurant A",
+    "address": "123 Main Street, Cityville",
+    "image": "https://example.com/restaurant-a-image.jpg",
+    "reviews": [
+      {
+        "customerName": "John Doe",
+        "review": "Great food and excellent service! Highly recommended.",
+        "rating": 5
+      },
+      {
+        "customerName": "Jane Smith",
+        "review": "Nice ambiance, but food could be better.",
+        "rating": 3
+      }
+    ],
+    "rating": 4
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772689" },
+    "name": "Restaurant Z",
+    "address": "789 Elm Street, Villageton",
+    "image": "https://example.com/restaurant-z-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Sam Brown",
+        "review": "Amazing experience! Loved the menu variety.",
+        "rating": 4
+      },
+      {
+        "customerName": "Emily Davis",
+        "review": "Decent food, but slow service.",
+        "rating": 3
+      }
+    ],
+    "rating": 3.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277268a" },
+    "name": "Bistro Bliss",
+    "address": "456 Oak Avenue, Townsville",
+    "image": "https://example.com/bistro-bliss-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Sophie Adams",
+        "review": "A hidden gem! The flavors are exquisite.",
+        "rating": 5
+      },
+      {
+        "customerName": "Mike Johnson",
+        "review": "Cozy atmosphere, but service could be quicker.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277268b" },
+    "name": "Spice Haven",
+    "address": "789 Pepper Lane, Spicetown",
+    "image": "https://example.com/spice-haven-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Priya Patel",
+        "review": "Fantastic spice levels! Loved every bite.",
+        "rating": 5
+      },
+      {
+        "customerName": "Alex Thompson",
+        "review": "Good place for spice lovers, but not for everyone.",
+        "rating": 3
+      }
+    ],
+    "rating": 4
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277268c" },
+    "name": "Seafood Delight Shack",
+    "address": "101 Shell Street, Seafront",
+    "image": "https://example.com/seafood-delight-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Chris Miller",
+        "review": "Fresh seafood and a delightful view!",
+        "rating": 4
+      },
+      {
+        "customerName": "Emma White",
+        "review": "Not a fan of seafood, but my friends loved it.",
+        "rating": 2
+      }
+    ],
+    "rating": 3
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277268d" },
+    "name": "Gourmet Grill House",
+    "address": "876 Flame Street, Sizzleville",
+    "image": "https://example.com/gourmet-grill-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Eva Rodriguez",
+        "review": "Mouthwatering steaks and a classy ambiance.",
+        "rating": 5
+      },
+      {
+        "customerName": "Daniel Brown",
+        "review": "Excellent service, but portions could be larger.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277268e" },
+    "name": "Mystical Munchies Corner",
+    "address": "234 Enchantment Road, Magicland",
+    "image": "https://example.com/mystical-munchies-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Luna Moon",
+        "review": "Magical atmosphere and enchanting flavors!",
+        "rating": 5
+      },
+      {
+        "customerName": "Ryan Wizard",
+        "review": "Unique experience, but a bit pricey.",
+        "rating": 3
+      }
+    ],
+    "rating": 4
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277268f" },
+    "name": "Savory Spice Haven",
+    "address": "543 Tasty Boulevard, Flavor City",
+    "image": "https://example.com/spice-haven-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Asha Patel",
+        "review": "Deliciously spiced dishes! A culinary adventure.",
+        "rating": 5
+      },
+      {
+        "customerName": "Miguel Rodriguez",
+        "review": "Spice levels were too high for me, but great quality.",
+        "rating": 3
+      }
+    ],
+    "rating": 4
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772690" },
+    "name": "Oceanfront Oyster Oasis",
+    "address": "789 Seafront Drive, Shell Beach",
+    "image": "https://example.com/oyster-oasis-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Sophia Lee",
+        "review": "Fresh seafood with a breathtaking view!",
+        "rating": 5
+      },
+      {
+        "customerName": "Alex Turner",
+        "review": "Oysters were good, but service was slow.",
+        "rating": 3
+      }
+    ],
+    "rating": 4
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772691" },
+    "name": "Mediterranean Marvel Bistro",
+    "address": "321 Olive Lane, Herb Haven",
+    "image": "https://example.com/mediterranean-bistro-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Elena Costa",
+        "review": "Authentic flavors and cozy atmosphere.",
+        "rating": 4
+      },
+      {
+        "customerName": "Nathan Thompson",
+        "review": "Excellent service, loved the grilled dishes.",
+        "rating": 5
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772692" },
+    "name": "Cheese Lovers' Paradise",
+    "address": "456 Dairy Street, Cheddar Town",
+    "image": "https://example.com/cheese-paradise-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Olivia Baker",
+        "review": "A dream come true for cheese enthusiasts!",
+        "rating": 5
+      },
+      {
+        "customerName": "Henry Kim",
+        "review": "Variety of cheese options, but a bit pricey.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772693" },
+    "name": "Sushi Sensation House",
+    "address": "789 Seaweed Street, Tokyo Bay",
+    "image": "https://example.com/sushi-sensation-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Haruki Nakamura",
+        "review": "Best sushi in town, fresh and delicious.",
+        "rating": 5
+      },
+      {
+        "customerName": "Ava Rodriguez",
+        "review": "Lovely presentation, a bit crowded during weekends.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772694" },
+    "name": "Spicy Delight Curry Corner",
+    "address": "101 Curry Lane, Spice City",
+    "image": "https://example.com/spicy-curry-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Raj Patel",
+        "review": "Authentic Indian flavors, loved the spice level.",
+        "rating": 5
+      },
+      {
+        "customerName": "Sophie Lee",
+        "review": "Great service, a bit too spicy for my taste.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772695" },
+    "name": "Pasta Paradise Haven",
+    "address": "222 Tomato Avenue, Noodle Town",
+    "image": "https://example.com/pasta-paradise-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Giuseppe Rossi",
+        "review": "Authentic Italian pasta, friendly staff.",
+        "rating": 5
+      },
+      {
+        "customerName": "Emma Johnson",
+        "review": "Cozy ambiance, a bit slow service during peak hours.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772696" },
+    "name": "Burger Bliss Bistro",
+    "address": "456 Patty Street, Beef City",
+    "image": "https://example.com/burger-bliss-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Alex Turner",
+        "review": "Juicy burgers, great variety.",
+        "rating": 5
+      },
+      {
+        "customerName": "Mia Garcia",
+        "review": "Nice atmosphere, could have more vegetarian options.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772697" },
+    "name": "Mediterranean Flavors Palace",
+    "address": "789 Olive Boulevard, Greek Harbor",
+    "image": "https://example.com/mediterranean-flavors-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Nikos Papadopoulos",
+        "review": "Amazing Greek cuisine, loved the moussaka.",
+        "rating": 5
+      },
+      {
+        "customerName": "Isabella Sanchez",
+        "review": "Beautiful setting, a bit pricey.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a98172772699" },
+    "name": "Dim Sum Delight House",
+    "address": "333 Bamboo Lane, Dim Sum City",
+    "image": "https://example.com/dim-sum-delight-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Wei Chen",
+        "review": "Authentic dim sum, friendly staff.",
+        "rating": 5
+      },
+      {
+        "customerName": "Olivia Brown",
+        "review": "Quick service, loved the variety.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277269a" },
+    "name": "Taco Town Hub",
+    "address": "101 Salsa Street, Guacamole Plaza",
+    "image": "https://example.com/taco-town-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Carlos Rodriguez",
+        "review": "Best tacos in town, great salsa!",
+        "rating": 5
+      },
+      {
+        "customerName": "Lily Martinez",
+        "review": "Authentic taste, a bit crowded during weekends.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277269b" },
+    "name": "Sushi Sensation Spot",
+    "address": "567 Soy Street, Wasabi City",
+    "image": "https://example.com/sushi-sensation-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Yuki Tanaka",
+        "review": "Fresh sushi, loved the variety.",
+        "rating": 5
+      },
+      {
+        "customerName": "David Johnson",
+        "review": "Good place for sushi lovers, reasonable prices.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "_id": { "$oid": "607f02c52ff0a9817277269c" },
+    "name": "Pizza Paradise Palace",
+    "address": "777 Cheese Avenue, Pepperoni Town",
+    "image": "https://example.com/pizza-paradise-image.jpg",
+    "reviews": [
+      {
+        "customerName": "Sophia Williams",
+        "review": "Delicious pizza, quick service.",
+        "rating": 5
+      },
+      {
+        "customerName": "Jack Miller",
+        "review": "Great for family outings, kid-friendly.",
+        "rating": 4
+      }
+    ],
+    "rating": 4.5
+  }
+]
