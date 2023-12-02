@@ -13,6 +13,7 @@ import { AuthModule } from '@auth0/auth0-angular';
 import { NavComponent } from './nav.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { AppHeroComponent } from './app-hero/app-hero.component';
+import { StarRatingComponent } from './star-rating/star-rating.component';
 
 
 
@@ -33,7 +34,7 @@ var routes: any = [
 
 @NgModule({
   declarations: [
-    AppHeaderComponent, AppComponent, BusinessesComponent, HomeComponent, BusinessComponent, NavComponent, AppHeroComponent
+    AppHeaderComponent, AppComponent, BusinessesComponent, HomeComponent, BusinessComponent, NavComponent, AppHeroComponent, StarRatingComponent
   ],
   imports: [
     BrowserModule, HttpClientModule, ReactiveFormsModule,

@@ -16,11 +16,11 @@ export class WebService {
 
     getBusiness(id: any) {
         this.businessID = id;
-        return this.http.get('http://localhost:5000/api/v1.0/businesses' + id);
+        return this.http.get('http://localhost:5000/api/v1.0/businesses/' + id);
     }
 
     getReviews(id: any) {
-        return this.http.get('http://localhost:5000/api/v1.0/businesses' + id + '/reviews');
+        return this.http.get('http://localhost:5000/api/v1.0/businesses/' + id + '/reviews');
     }
 
     postReview(review: any) {

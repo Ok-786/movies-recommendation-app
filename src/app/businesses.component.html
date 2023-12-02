@@ -1,18 +1,18 @@
-<div class="container" style="margin-top: 70px;">
+<div class="container-fluid" style="margin-top: 70px; justify-content: space-between; align-items: center; margin-left: 3%;">
   <div class="row" style="width: fit-content">
     <div class="col-lg-4" *ngFor="let business of business_list | async">
       <div class="card text-white bg-dark mb-3" style="cursor: pointer; width: 18rem;" [routerLink]="['/businesses', business._id]">
-        <img src="{{ business.image}}" class="card-img-top" alt="">
-
+        <img src="assets/imgs/rest-1.jpg" class="card-img-top" alt="">
         <div class="card-body">
           <h5 class="card-title">
             {{ business.name }}
           </h5>
           <h6 class="card-text">
-            This business is based in {{ business.address }}
+            This Resturant is based in {{ business.address }}
           </h6>
           <p class="card-text">
-            Rating: {{ business.rating }}
+            <span class="text-secondary">Rating:</span>
+            <app-star-rating [rating]="business.rating"></app-star-rating>
           </p>
           <p class="card-text">
             No. of Reviews: {{ business.reviews.length }}
@@ -21,14 +21,15 @@
       </div>
     </div>
   </div>
-  <div class="row" style="width: max-content;">
-    <div class=" offset-lg-2 col-lg-3">
+  <hr>
+  <div class="row" style="width: 100%;">
+    <div class=" offset-lg-4 col-lg-1">
       <button class="btn btn-primary" (click)="previousPage()">
         Previous
       </button>
     </div>
 
-    <div class="offset-lg-1 col-lg-3 text-end">
+    <div class="offset-lg-2 col-lg-1 text-end">
       <button class="btn btn-primary" (click)="nextPage()">
         Next
       </button>

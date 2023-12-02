@@ -30,7 +30,7 @@ export class BusinessComponent {
     });
 
     this.business_list = this.webService.getBusiness(this.route.snapshot.params['id']);
-    this.reviews = this.webService.getReviews(this.route.snapshot.params['id']);
+    // this.reviews = this.webService.getReviews(this.route.snapshot.params['id']);
 
   }
 
