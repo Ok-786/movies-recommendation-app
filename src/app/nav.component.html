@@ -1,27 +1,25 @@
-<div class="navbar navbar-expand-sm bg-primary
- navbar-dark fixed-top">
+<div class="navbar navbar-expand-sm 
+ navbar-dark fixed-top" style="background-color: #212529; padding-inline: 10vh;">
+
     <span class="navbar-brand">Biz Directory</span>
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" style="margin-left:2vh">
         <li class="nav-item">
             <a class="nav-link" routerLink='/'>Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" routerLink='/businesses'>Businesses</a>
+            <a class="nav-link" routerLink='/businesses'>Restaurants</a>
         </li>
     </ul>
 
-    <div class = "form-inline ms-auto"
- style = "margin-right: 10px;">
+    <div class="form-inline ms-auto" style="margin-right: 10px;">
 
-    <ng-container *ngIf="authService.isAuthenticated$ | async;
+        <ng-container *ngIf="authService.isAuthenticated$ | async;
  else loggedOut">
-        <button class="btn btn-outline-light" (click)="authService.logout()">Logout</button>
-    </ng-container>
-    <ng-template #loggedOut>
+            <button class="btn btn-outline-light" (click)="authService.logout()">Logout</button>
+        </ng-container>
+        <ng-template #loggedOut>
 
-        <button class="btn btn-outline-light" (click)="authService.loginWithRedirect( {
+            <button class="btn btn-outline-light" (click)="authService.loginWithRedirect( {
             appState : { target : this.router.url }
         })">
-            Login</button>
-
-
+                Login</button>

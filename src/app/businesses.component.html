@@ -1,8 +1,10 @@
-<div class="container-fluid" style="margin-top: 70px; justify-content: space-between; align-items: center; margin-left: 3%;">
+<div class="container-fluid"
+  style="margin-top: 70px; justify-content: space-between; align-items: center; margin-left: 3%;">
   <div class="row" style="width: fit-content">
     <div class="col-lg-4" *ngFor="let business of business_list | async">
-      <div class="card text-white bg-dark mb-3" style="cursor: pointer; width: 18rem;" [routerLink]="['/businesses', business._id]">
-        <img src="assets/imgs/rest-1.jpg" class="card-img-top" alt="">
+      <div class="card text-white bg-dark mb-3" style="cursor: pointer; width: 50vh;"
+        [routerLink]="['/businesses', business._id]">
+        <img [src]="business.image" class="card-img-top" alt="" style="width: 100%; height: 30vh;">
         <div class="card-body">
           <h5 class="card-title">
             {{ business.name }}

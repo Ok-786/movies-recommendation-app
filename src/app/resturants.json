@@ -1,438 +1,1213 @@
 [
   {
-    "_id": { "$oid": "607f02c52ff0a98172772686" },
+    "_id": {"$oid":"607f02c52ff0a98172772686"},
     "name": "Restaurant A",
     "address": "123 Main Street, Cityville",
-    "image": "https://example.com/restaurant-a-image.jpg",
+    "image": "/assets/imgs/rest-90.jpg",
     "reviews": [
-      {
-        "customerName": "John Doe",
-        "review": "Great food and excellent service! Highly recommended.",
-        "rating": 5
-      },
-      {
-        "customerName": "Jane Smith",
-        "review": "Nice ambiance, but food could be better.",
-        "rating": 3
-      }
+      {"customerName": "John Doe", "review": "Great food and excellent service! Highly recommended.", "rating": 5},
+      {"customerName": "Jane Smith", "review": "Nice ambiance, but food could be better.", "rating": 3}
+
     ],
     "rating": 4
   },
   {
-    "_id": { "$oid": "607f02c52ff0a98172772687" },
+    "_id": {"$oid":"607f02c52ff0a98172772687"},
     "name": "Restaurant B",
     "address": "456 Oak Street, Townsville",
-    "image": "https://example.com/restaurant-b-image.jpg",
+    "image": "/assets/imgs/rest-91.jpg",
     "reviews": [
-      {
-        "customerName": "Alice Johnson",
-        "review": "Fantastic experience! Will visit again.",
-        "rating": 4
-      },
-      {
-        "customerName": "Bob Wilson",
-        "review": "Average food, but great location.",
-        "rating": 3
-      }
+      {"customerName": "Alice Johnson", "review": "Fantastic experience! Will visit again.", "rating": 4},
+      {"customerName": "Bob Wilson", "review": "Average food, but great location.", "rating": 3}
+
     ],
     "rating": 3.5
   },
-  {
-    "_id": { "$oid": "607f02c52ff0a98172772688" },
+{
+    "_id": {"$oid":"607f02c52ff0a98172772688"},
     "name": "Restaurant A",
     "address": "123 Main Street, Cityville",
-    "image": "https://example.com/restaurant-a-image.jpg",
+    "image": "/assets/imgs/rest-92.jpg",
     "reviews": [
-      {
-        "customerName": "John Doe",
-        "review": "Great food and excellent service! Highly recommended.",
-        "rating": 5
-      },
-      {
-        "customerName": "Jane Smith",
-        "review": "Nice ambiance, but food could be better.",
-        "rating": 3
-      }
+      {"customerName": "John Doe", "review": "Great food and excellent service! Highly recommended.", "rating": 5},
+      {"customerName": "Jane Smith", "review": "Nice ambiance, but food could be better.", "rating": 3}
     ],
     "rating": 4
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a98172772689" },
+    "_id": {"$oid":"607f02c52ff0a98172772689"},
     "name": "Restaurant Z",
     "address": "789 Elm Street, Villageton",
-    "image": "https://example.com/restaurant-z-image.jpg",
+    "image": "/assets/imgs/rest-93.jpg",
     "reviews": [
-      {
-        "customerName": "Sam Brown",
-        "review": "Amazing experience! Loved the menu variety.",
-        "rating": 4
-      },
-      {
-        "customerName": "Emily Davis",
-        "review": "Decent food, but slow service.",
-        "rating": 3
-      }
+      {"customerName": "Sam Brown", "review": "Amazing experience! Loved the menu variety.", "rating": 4},
+      {"customerName": "Emily Davis", "review": "Decent food, but slow service.", "rating": 3}
     ],
     "rating": 3.5
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a9817277268a" },
-    "name": "Bistro Bliss",
-    "address": "456 Oak Avenue, Townsville",
-    "image": "https://example.com/bistro-bliss-image.jpg",
-    "reviews": [
-      {
-        "customerName": "Sophie Adams",
-        "review": "A hidden gem! The flavors are exquisite.",
-        "rating": 5
-      },
-      {
-        "customerName": "Mike Johnson",
-        "review": "Cozy atmosphere, but service could be quicker.",
-        "rating": 4
-      }
-    ],
-    "rating": 4.5
+  "_id": {"$oid":"607f02c52ff0a9817277268a"},
+  "name": "Bistro Bliss",
+  "address": "456 Oak Avenue, Townsville",
+  "image": "/assets/imgs/rest-94.jpg",
+  "reviews": [
+    {"customerName": "Sophie Adams", "review": "A hidden gem! The flavors are exquisite.", "rating": 5},
+    {"customerName": "Mike Johnson", "review": "Cozy atmosphere, but service could be quicker.", "rating": 4}
+  ],
+  "rating": 4.5
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a9817277268b" },
-    "name": "Spice Haven",
-    "address": "789 Pepper Lane, Spicetown",
-    "image": "https://example.com/spice-haven-image.jpg",
-    "reviews": [
-      {
-        "customerName": "Priya Patel",
-        "review": "Fantastic spice levels! Loved every bite.",
-        "rating": 5
-      },
-      {
-        "customerName": "Alex Thompson",
-        "review": "Good place for spice lovers, but not for everyone.",
-        "rating": 3
-      }
-    ],
-    "rating": 4
+  "_id": {"$oid":"607f02c52ff0a9817277268b"},
+  "name": "Spice Haven",
+  "address": "789 Pepper Lane, Spicetown",
+  "image": "/assets/imgs/rest-95.jpg",
+  "reviews": [
+    {"customerName": "Priya Patel", "review": "Fantastic spice levels! Loved every bite.", "rating": 5},
+    {"customerName": "Alex Thompson", "review": "Good place for spice lovers, but not for everyone.", "rating": 3}
+  ],
+  "rating": 4
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a9817277268c" },
-    "name": "Seafood Delight Shack",
-    "address": "101 Shell Street, Seafront",
-    "image": "https://example.com/seafood-delight-image.jpg",
-    "reviews": [
-      {
-        "customerName": "Chris Miller",
-        "review": "Fresh seafood and a delightful view!",
-        "rating": 4
-      },
-      {
-        "customerName": "Emma White",
-        "review": "Not a fan of seafood, but my friends loved it.",
-        "rating": 2
-      }
-    ],
-    "rating": 3
+  "_id": {"$oid":"607f02c52ff0a9817277268c"},
+  "name": "Seafood Delight Shack",
+  "address": "101 Shell Street, Seafront",
+  "image": "/assets/imgs/rest-96.jpg",
+  "reviews": [
+    {"customerName": "Chris Miller", "review": "Fresh seafood and a delightful view!", "rating": 4},
+    {"customerName": "Emma White", "review": "Not a fan of seafood, but my friends loved it.", "rating": 2}
+  ],
+  "rating": 3
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a9817277268d" },
+    "_id": {"$oid":"607f02c52ff0a9817277268d"},
     "name": "Gourmet Grill House",
     "address": "876 Flame Street, Sizzleville",
-    "image": "https://example.com/gourmet-grill-image.jpg",
+    "image": "/assets/imgs/rest-97.jpg",
     "reviews": [
-      {
-        "customerName": "Eva Rodriguez",
-        "review": "Mouthwatering steaks and a classy ambiance.",
-        "rating": 5
-      },
-      {
-        "customerName": "Daniel Brown",
-        "review": "Excellent service, but portions could be larger.",
-        "rating": 4
-      }
+      {"customerName": "Eva Rodriguez", "review": "Mouthwatering steaks and a classy ambiance.", "rating": 5},
+      {"customerName": "Daniel Brown", "review": "Excellent service, but portions could be larger.", "rating": 4}
     ],
     "rating": 4.5
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a9817277268e" },
-    "name": "Mystical Munchies Corner",
-    "address": "234 Enchantment Road, Magicland",
-    "image": "https://example.com/mystical-munchies-image.jpg",
-    "reviews": [
-      {
-        "customerName": "Luna Moon",
-        "review": "Magical atmosphere and enchanting flavors!",
-        "rating": 5
-      },
-      {
-        "customerName": "Ryan Wizard",
-        "review": "Unique experience, but a bit pricey.",
-        "rating": 3
-      }
-    ],
-    "rating": 4
+  "_id": {"$oid":"607f02c52ff0a9817277268e"},
+  "name": "Mystical Munchies Corner",
+  "address": "234 Enchantment Road, Magicland",
+  "image": "/assets/imgs/rest-98.jpg",
+  "reviews": [
+    {"customerName": "Luna Moon", "review": "Magical atmosphere and enchanting flavors!", "rating": 5},
+    {"customerName": "Ryan Wizard", "review": "Unique experience, but a bit pricey.", "rating": 3}
+  ],
+  "rating": 4
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a9817277268f" },
-    "name": "Savory Spice Haven",
-    "address": "543 Tasty Boulevard, Flavor City",
-    "image": "https://example.com/spice-haven-image.jpg",
-    "reviews": [
-      {
-        "customerName": "Asha Patel",
-        "review": "Deliciously spiced dishes! A culinary adventure.",
-        "rating": 5
-      },
-      {
-        "customerName": "Miguel Rodriguez",
-        "review": "Spice levels were too high for me, but great quality.",
-        "rating": 3
-      }
-    ],
-    "rating": 4
+  "_id": {"$oid":"607f02c52ff0a9817277268f"},
+  "name": "Savory Spice Haven",
+  "address": "543 Tasty Boulevard, Flavor City",
+  "image": "/assets/imgs/rest-99.jpg",
+  "reviews": [
+    {"customerName": "Asha Patel", "review": "Deliciously spiced dishes! A culinary adventure.", "rating": 5},
+    {"customerName": "Miguel Rodriguez", "review": "Spice levels were too high for me, but great quality.", "rating": 3}
+  ],
+  "rating": 4
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a98172772690" },
-    "name": "Oceanfront Oyster Oasis",
-    "address": "789 Seafront Drive, Shell Beach",
-    "image": "https://example.com/oyster-oasis-image.jpg",
-    "reviews": [
-      {
-        "customerName": "Sophia Lee",
-        "review": "Fresh seafood with a breathtaking view!",
-        "rating": 5
-      },
-      {
-        "customerName": "Alex Turner",
-        "review": "Oysters were good, but service was slow.",
-        "rating": 3
-      }
-    ],
-    "rating": 4
+  "_id": {"$oid":"607f02c52ff0a98172772690"},
+  "name": "Oceanfront Oyster Oasis",
+  "address": "789 Seafront Drive, Shell Beach",
+  "image": "/assets/imgs/rest-100.jpg",
+  "reviews": [
+    {"customerName": "Sophia Lee", "review": "Fresh seafood with a breathtaking view!", "rating": 5},
+    {"customerName": "Alex Turner", "review": "Oysters were good, but service was slow.", "rating": 3}
+  ],
+  "rating": 4
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a98172772691" },
-    "name": "Mediterranean Marvel Bistro",
-    "address": "321 Olive Lane, Herb Haven",
-    "image": "https://example.com/mediterranean-bistro-image.jpg",
+  "_id": {"$oid":"607f02c52ff0a98172772691"},
+  "name": "Mediterranean Marvel Bistro",
+  "address": "321 Olive Lane, Herb Haven",
+  "image": "/assets/imgs/rest-101.jpg",
+  "reviews": [
+    {"customerName": "Elena Costa", "review": "Authentic flavors and cozy atmosphere.", "rating": 4},
+    {"customerName": "Nathan Thompson", "review": "Excellent service, loved the grilled dishes.", "rating": 5}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772692"},
+  "name": "Cheese Lovers' Paradise",
+  "address": "456 Dairy Street, Cheddar Town",
+  "image": "/assets/imgs/rest-102.jpg",
+  "reviews": [
+    {"customerName": "Olivia Baker", "review": "A dream come true for cheese enthusiasts!", "rating": 5},
+    {"customerName": "Henry Kim", "review": "Variety of cheese options, but a bit pricey.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772693"},
+  "name": "Sushi Sensation House",
+  "address": "789 Seaweed Street, Tokyo Bay",
+  "image": "/assets/imgs/rest-103.jpg",
+  "reviews": [
+    {"customerName": "Haruki Nakamura", "review": "Best sushi in town, fresh and delicious.", "rating": 5},
+    {"customerName": "Ava Rodriguez", "review": "Lovely presentation, a bit crowded during weekends.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772694"},
+  "name": "Spicy Delight Curry Corner",
+  "address": "101 Curry Lane, Spice City",
+  "image": "/assets/imgs/rest-104.jpg",
+  "reviews": [
+    {"customerName": "Raj Patel", "review": "Authentic Indian flavors, loved the spice level.", "rating": 5},
+    {"customerName": "Sophie Lee", "review": "Great service, a bit too spicy for my taste.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772695"},
+  "name": "Pasta Paradise Haven",
+  "address": "222 Tomato Avenue, Noodle Town",
+  "image": "/assets/imgs/rest-105.jpg",
+  "reviews": [
+    {"customerName": "Giuseppe Rossi", "review": "Authentic Italian pasta, friendly staff.", "rating": 5},
+    {"customerName": "Emma Johnson", "review": "Cozy ambiance, a bit slow service during peak hours.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772696"},
+  "name": "Burger Bliss Bistro",
+  "address": "456 Patty Street, Beef City",
+  "image": "/assets/imgs/rest-106.jpg",
+  "reviews": [
+    {"customerName": "Alex Turner", "review": "Juicy burgers, great variety.", "rating": 5},
+    {"customerName": "Mia Garcia", "review": "Nice atmosphere, could have more vegetarian options.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772697"},
+  "name": "Mediterranean Flavors Palace",
+  "address": "789 Olive Boulevard, Greek Harbor",
+  "image": "/assets/imgs/rest-107.jpg",
+  "reviews": [
+    {"customerName": "Nikos Papadopoulos", "review": "Amazing Greek cuisine, loved the moussaka.", "rating": 5},
+    {"customerName": "Isabella Sanchez", "review": "Beautiful setting, a bit pricey.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a98172772699"},
+  "name": "Dim Sum Delight House",
+  "address": "333 Bamboo Lane, Dim Sum City",
+  "image": "/assets/imgs/rest-108.jpg",
+  "reviews": [
+    {"customerName": "Wei Chen", "review": "Authentic dim sum, friendly staff.", "rating": 5},
+    {"customerName": "Olivia Brown", "review": "Quick service, loved the variety.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a9817277269a"},
+  "name": "Taco Town Hub",
+  "address": "101 Salsa Street, Guacamole Plaza",
+  "image": "/assets/imgs/rest-109.jpg",
+  "reviews": [
+    {"customerName": "Carlos Rodriguez", "review": "Best tacos in town, great salsa!", "rating": 5},
+    {"customerName": "Lily Martinez", "review": "Authentic taste, a bit crowded during weekends.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a9817277269b"},
+  "name": "Sushi Sensation Spot",
+  "address": "567 Soy Street, Wasabi City",
+  "image": "/assets/imgs/rest-1.jpg",
+  "reviews": [
+    {"customerName": "Yuki Tanaka", "review": "Fresh sushi, loved the variety.", "rating": 5},
+    {"customerName": "David Johnson", "review": "Good place for sushi lovers, reasonable prices.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+  "_id": {"$oid":"607f02c52ff0a9817277269c"},
+  "name": "Pizza Paradise Palace",
+  "address": "777 Cheese Avenue, Pepperoni Town",
+  "image": "/assets/imgs/rest-2.jpg",
+  "reviews": [
+    {"customerName": "Sophia Williams", "review": "Delicious pizza, quick service.", "rating": 5},
+    {"customerName": "Jack Miller", "review": "Great for family outings, kid-friendly.", "rating": 4}
+  ],
+  "rating": 4.5
+  },
+
+  {
+    "_id": {"$oid":"607f02c52ff0a9817277269d"},
+    "name": "Veggie Delight",
+    "address": "222 Green Street, Veggieville",
+    "image": "/assets/imgs/rest-3.jpg",
     "reviews": [
-      {
-        "customerName": "Elena Costa",
-        "review": "Authentic flavors and cozy atmosphere.",
-        "rating": 4
-      },
-      {
-        "customerName": "Nathan Thompson",
-        "review": "Excellent service, loved the grilled dishes.",
-        "rating": 5
-      }
+      {"customerName": "Anna Green", "review": "Amazing vegetarian options! Fresh and delicious.", "rating": 5},
+      {"customerName": "Mark Turner", "review": "Good for vegetarians, but limited vegan choices.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a9817277269e"},
+    "name": "Bakery Bliss",
+    "address": "789 Sugar Lane, Sweetville",
+    "image": "/assets/imgs/rest-4.jpg",
+    "reviews": [
+      {"customerName": "Sophie Baker", "review": "Delicious pastries and cakes! A sweet paradise.", "rating": 5},
+      {"customerName": "Charlie Brown", "review": "Great variety, but a bit too sweet for my taste.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a9817277269f"},
+    "name": "Healthy Haven",
+    "address": "101 Wellness Avenue, Fit City",
+    "image": "/assets/imgs/rest-5.jpg",
+    "reviews": [
+      {"customerName": "Emma Fitness", "review": "Nutritious and tasty! Perfect for health-conscious individuals.", "rating": 5},
+      {"customerName": "John Health", "review": "Good options for a healthy lifestyle, but a bit pricey.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a0"},
+    "name": "Café Cuddles",
+    "address": "456 Warmth Street, Cozy Corner",
+    "image": "/assets/imgs/rest-6.jpg",
+    "reviews": [
+      {"customerName": "Mia Cozy", "review": "Lovely café with a cozy atmosphere. Perfect for a lazy afternoon.", "rating": 5},
+      {"customerName": "Daniel Hug", "review": "Great coffee, but could use more seating.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a1"},
+    "name": "Breakfast Bonanza",
+    "address": "789 Morning Lane, Earlyville",
+    "image": "/assets/imgs/rest-7.jpg",
+    "reviews": [
+      {"customerName": "Ella Early", "review": "Delicious breakfast options! A great start to the day.", "rating": 5},
+      {"customerName": "Sam Sunrise", "review": "Good variety, but busy during peak hours.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a2"},
+    "name": "Dessert Delights",
+    "address": "101 Sugar Lane, Sweet Tooth City",
+    "image": "/assets/imgs/rest-8.jpg",
+    "reviews": [
+      {"customerName": "Olivia Sweet", "review": "Heavenly desserts! A treat for every sweet tooth.", "rating": 5},
+      {"customerName": "Charlie Candy", "review": "Amazing variety, but could be sweeter.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a3"},
+    "name": "Smoothie Paradise",
+    "address": "456 Blend Street, Fruitville",
+    "image": "/assets/imgs/rest-9.jpg",
+    "reviews": [
+      {"customerName": "Lily Fruit", "review": "Refreshing smoothies! Perfect for a healthy boost.", "rating": 5},
+      {"customerName": "Tommy Blend", "review": "Good variety, but could use more protein options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a4"},
+    "name": "Gourmet Gelato",
+    "address": "789 Gelato Lane, Chillsville",
+    "image": "/assets/imgs/rest-10.jpg",
+    "reviews": [
+      {"customerName": "Sophia Chill", "review": "Creamy and flavorful gelato! A delightful experience.", "rating": 5},
+      {"customerName": "Jack Frost", "review": "Great variety, but could be colder.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a5"},
+    "name": "Culinary Carnival",
+    "address": "101 Festival Avenue, Foodie Town",
+    "image": "/assets/imgs/rest-11.jpg",
+    "reviews": [
+      {"customerName": "Eva Foodie", "review": "A feast for the senses! Amazing food varieties.", "rating": 5},
+      {"customerName": "Mike Carnival", "review": "Great concept, but a bit overwhelming.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a6"},
+    "name": "Tea Time Treasures",
+    "address": "456 Serenity Street, Tranquil Town",
+    "image": "/assets/imgs/rest-12.jpg",
+    "reviews": [
+      {"customerName": "Grace Tranquil", "review": "Perfect place for tea lovers! Serene and relaxing.", "rating": 5},
+      {"customerName": "Oliver Calm", "review": "Nice ambiance, but could use more tea varieties.", "rating": 4}
     ],
     "rating": 4.5
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a98172772692" },
-    "name": "Cheese Lovers' Paradise",
-    "address": "456 Dairy Street, Cheddar Town",
-    "image": "https://example.com/cheese-paradise-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726a7"},
+    "name": "Rustic Retreat Grill",
+    "address": "789 Woodland Avenue, Nature Haven",
+    "image": "/assets/imgs/rest-13.jpg",
     "reviews": [
-      {
-        "customerName": "Olivia Baker",
-        "review": "A dream come true for cheese enthusiasts!",
-        "rating": 5
-      },
-      {
-        "customerName": "Henry Kim",
-        "review": "Variety of cheese options, but a bit pricey.",
-        "rating": 4
-      }
+      {"customerName": "Ethan Woods", "review": "Scenic views and delicious grilled dishes! A nature lover's paradise.", "rating": 5},
+      {"customerName": "Ava Green", "review": "Great escape into nature, but service could be faster.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a8"},
+    "name": "Crispy Crust Pizzeria",
+    "address": "456 Crispy Lane, Pizza Town",
+    "image": "/assets/imgs/rest-14.jpg",
+    "reviews": [
+      {"customerName": "Tony Pizza", "review": "Delicious pizza with a crispy crust! A pizza lover's dream.", "rating": 5},
+      {"customerName": "Sara Slice", "review": "Great variety, but could use more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726a9"},
+    "name": "Brewmaster's Haven",
+    "address": "101 Hops Street, Beer City",
+    "image": "/assets/imgs/rest-15.jpg",
+    "reviews": [
+      {"customerName": "Brewster Brew", "review": "Fantastic beer selection! A haven for beer enthusiasts.", "rating": 5},
+      {"customerName": "Olivia Hops", "review": "Great atmosphere, but could have more non-alcoholic options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726aa"},
+    "name": "Fiesta Mexicana",
+    "address": "456 Salsa Street, Mexican Plaza",
+    "image": "/assets/imgs/rest-16.jpg",
+    "reviews": [
+      {"customerName": "Diego Mariachi", "review": "Authentic Mexican flavors! A fiesta for the taste buds.", "rating": 5},
+      {"customerName": "Maria Salsa", "review": "Great ambiance, but could be spicier.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ab"},
+    "name": "Noodle Nirvana House",
+    "address": "789 Ramen Lane, Noodle City",
+    "image": "/assets/imgs/rest-17.jpg",
+    "reviews": [
+      {"customerName": "Ken Noodle", "review": "Delicious noodles! A nirvana for noodle lovers.", "rating": 5},
+      {"customerName": "Lily Broth", "review": "Good variety, but could use more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ac"},
+    "name": "Piquant Pastry Palace",
+    "address": "101 Flaky Avenue, Puffville",
+    "image": "/assets/imgs/rest-18.jpg",
+    "reviews": [
+      {"customerName": "Patrick Puff", "review": "Delectable pastries! A palace for pastry enthusiasts.", "rating": 5},
+      {"customerName": "Emily Flaky", "review": "Great variety, but could be less sweet.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ad"},
+    "name": "Hot Pot Haven",
+    "address": "456 Steam Street, Steamy City",
+    "image": "/assets/imgs/rest-19.jpg",
+    "reviews": [
+      {"customerName": "Simon Steam", "review": "Scrumptious hot pot! A haven for steamy delights.", "rating": 5},
+      {"customerName": "Nina Broth", "review": "Good variety, but could use more spice options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ae"},
+    "name": "Wok Wonders",
+    "address": "789 Stir Fry Lane, Sizzle Town",
+    "image": "/assets/imgs/rest-20.jpg",
+    "reviews": [
+      {"customerName": "Sam Stir", "review": "Sizzling wok dishes! A wonder for stir fry enthusiasts.", "rating": 5},
+      {"customerName": "Ella Sizzle", "review": "Great flavors, but could be less oily.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726af"},
+    "name": "Vivid Vegan Vibes",
+    "address": "101 Plant Lane, Vegan Haven",
+    "image": "/assets/imgs/rest-21.jpg",
+    "reviews": [
+      {"customerName": "Vera Vegan", "review": "Vibrant vegan dishes! A haven for plant-based enthusiasts.", "rating": 5},
+      {"customerName": "Tommy Tofu", "review": "Great variety, but could use more protein options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b0"},
+    "name": "Bistro Burger Bliss",
+    "address": "456 Patty Avenue, Beefy Town",
+    "image": "/assets/imgs/rest-22.jpg",
+    "reviews": [
+      {"customerName": "Alex Beef", "review": "Juicy burgers, great variety. A bliss for burger enthusiasts.", "rating": 5},
+      {"customerName": "Mia Bun", "review": "Nice atmosphere, could have more vegetarian options.", "rating": 4}
     ],
     "rating": 4.5
   },
 
   {
-    "_id": { "$oid": "607f02c52ff0a98172772693" },
-    "name": "Sushi Sensation House",
-    "address": "789 Seaweed Street, Tokyo Bay",
-    "image": "https://example.com/sushi-sensation-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b1"},
+    "name": "Sizzling Steakhouse",
+    "address": "789 Grill Street, Steak City",
+    "image": "/assets/imgs/rest-23.jpg",
     "reviews": [
-      {
-        "customerName": "Haruki Nakamura",
-        "review": "Best sushi in town, fresh and delicious.",
-        "rating": 5
-      },
-      {
-        "customerName": "Ava Rodriguez",
-        "review": "Lovely presentation, a bit crowded during weekends.",
-        "rating": 4
-      }
+      {"customerName": "Charlie Carnivore", "review": "Mouthwatering steaks! A paradise for meat lovers.", "rating": 5},
+      {"customerName": "Olivia Veggie", "review": "Limited vegetarian options, but great for steak enthusiasts.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a98172772694" },
-    "name": "Spicy Delight Curry Corner",
-    "address": "101 Curry Lane, Spice City",
-    "image": "https://example.com/spicy-curry-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b2"},
+    "name": "Zen Zenith Sushi",
+    "address": "456 Zen Lane, Sushi Zenith",
+    "image": "/assets/imgs/rest-24.jpg",
     "reviews": [
-      {
-        "customerName": "Raj Patel",
-        "review": "Authentic Indian flavors, loved the spice level.",
-        "rating": 5
-      },
-      {
-        "customerName": "Sophie Lee",
-        "review": "Great service, a bit too spicy for my taste.",
-        "rating": 4
-      }
+      {"customerName": "Harmony Sushi", "review": "Sushi perfection! A Zen experience for sushi lovers.", "rating": 5},
+      {"customerName": "Tranquil Roll", "review": "Fresh and delightful, but could have more unique rolls.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a98172772695" },
-    "name": "Pasta Paradise Haven",
-    "address": "222 Tomato Avenue, Noodle Town",
-    "image": "https://example.com/pasta-paradise-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b3"},
+    "name": "Cafe Caramel",
+    "address": "101 Sweet Street, Dessert City",
+    "image": "/assets/imgs/rest-25.jpg",
     "reviews": [
-      {
-        "customerName": "Giuseppe Rossi",
-        "review": "Authentic Italian pasta, friendly staff.",
-        "rating": 5
-      },
-      {
-        "customerName": "Emma Johnson",
-        "review": "Cozy ambiance, a bit slow service during peak hours.",
-        "rating": 4
-      }
+      {"customerName": "Cocoa Caramel", "review": "Sweet delights! A caramel haven for dessert enthusiasts.", "rating": 5},
+      {"customerName": "Sugar Rush", "review": "Good variety, but could use more sugar-free options.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a98172772696" },
-    "name": "Burger Bliss Bistro",
-    "address": "456 Patty Street, Beef City",
-    "image": "https://example.com/burger-bliss-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b4"},
+    "name": "Pasta Perfection House",
+    "address": "456 Al Dente Lane, Pasta Paradise",
+    "image": "/assets/imgs/rest-26.jpg",
     "reviews": [
-      {
-        "customerName": "Alex Turner",
-        "review": "Juicy burgers, great variety.",
-        "rating": 5
-      },
-      {
-        "customerName": "Mia Garcia",
-        "review": "Nice atmosphere, could have more vegetarian options.",
-        "rating": 4
-      }
+      {"customerName": "Giovanni Pasta", "review": "Authentic Italian pasta! A paradise for pasta lovers.", "rating": 5},
+      {"customerName": "Sofia Sauce", "review": "Great flavors, but could have more gluten-free options.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a98172772697" },
-    "name": "Mediterranean Flavors Palace",
-    "address": "789 Olive Boulevard, Greek Harbor",
-    "image": "https://example.com/mediterranean-flavors-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b5"},
+    "name": "Mango Madness Bistro",
+    "address": "789 Tropical Lane, Fruit Haven",
+    "image": "/assets/imgs/rest-27.jpg",
     "reviews": [
-      {
-        "customerName": "Nikos Papadopoulos",
-        "review": "Amazing Greek cuisine, loved the moussaka.",
-        "rating": 5
-      },
-      {
-        "customerName": "Isabella Sanchez",
-        "review": "Beautiful setting, a bit pricey.",
-        "rating": 4
-      }
+      {"customerName": "Mia Mango", "review": "Delicious mango dishes! A paradise for mango enthusiasts.", "rating": 5},
+      {"customerName": "Tropical Twist", "review": "Refreshing, but could use more variety in fruit options.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a98172772699" },
-    "name": "Dim Sum Delight House",
-    "address": "333 Bamboo Lane, Dim Sum City",
-    "image": "https://example.com/dim-sum-delight-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b6"},
+    "name": "Smokehouse BBQ Pit",
+    "address": "101 Smoky Street, BBQ Town",
+    "image": "/assets/imgs/rest-28.jpg",
     "reviews": [
-      {
-        "customerName": "Wei Chen",
-        "review": "Authentic dim sum, friendly staff.",
-        "rating": 5
-      },
-      {
-        "customerName": "Olivia Brown",
-        "review": "Quick service, loved the variety.",
-        "rating": 4
-      }
+      {"customerName": "Bill BBQ", "review": "Smokey goodness! A pit for BBQ enthusiasts.", "rating": 5},
+      {"customerName": "Grill Master", "review": "Great barbecue, but could have more vegetarian options.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a9817277269a" },
-    "name": "Taco Town Hub",
-    "address": "101 Salsa Street, Guacamole Plaza",
-    "image": "https://example.com/taco-town-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b7"},
+    "name": "Choco Charm Chocolatier",
+    "address": "456 Cocoa Lane, Chocolate City",
+    "image": "/assets/imgs/rest-29.jpg",
     "reviews": [
-      {
-        "customerName": "Carlos Rodriguez",
-        "review": "Best tacos in town, great salsa!",
-        "rating": 5
-      },
-      {
-        "customerName": "Lily Martinez",
-        "review": "Authentic taste, a bit crowded during weekends.",
-        "rating": 4
-      }
+      {"customerName": "Charlie Chocolate", "review": "Chocoholic's dream! A charm for chocolate enthusiasts.", "rating": 5},
+      {"customerName": "Cocoa Connoisseur", "review": "Decadent chocolates, but could have more sugar-free options.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a9817277269b" },
-    "name": "Sushi Sensation Spot",
-    "address": "567 Soy Street, Wasabi City",
-    "image": "https://example.com/sushi-sensation-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b8"},
+    "name": "Bavarian Brew Bistro",
+    "address": "789 Hops Lane, Beer Haven",
+    "image": "/assets/imgs/rest-30.jpg",
     "reviews": [
-      {
-        "customerName": "Yuki Tanaka",
-        "review": "Fresh sushi, loved the variety.",
-        "rating": 5
-      },
-      {
-        "customerName": "David Johnson",
-        "review": "Good place for sushi lovers, reasonable prices.",
-        "rating": 4
-      }
+      {"customerName": "Bella Brew", "review": "Bavarian bliss in a mug! A haven for beer enthusiasts.", "rating": 5},
+      {"customerName": "Lager Lover", "review": "Great beer selection, but could have more non-alcoholic options.", "rating": 4}
     ],
     "rating": 4.5
   },
-
   {
-    "_id": { "$oid": "607f02c52ff0a9817277269c" },
-    "name": "Pizza Paradise Palace",
-    "address": "777 Cheese Avenue, Pepperoni Town",
-    "image": "https://example.com/pizza-paradise-image.jpg",
+    "_id": {"$oid":"607f02c52ff0a981727726b9"},
+    "name": "Mystic Mocha Cafe",
+    "address": "101 Espresso Street, Coffee Plaza",
+    "image": "/assets/imgs/rest-31.jpg",
     "reviews": [
-      {
-        "customerName": "Sophia Williams",
-        "review": "Delicious pizza, quick service.",
-        "rating": 5
-      },
-      {
-        "customerName": "Jack Miller",
-        "review": "Great for family outings, kid-friendly.",
-        "rating": 4
-      }
+      {"customerName": "Mia Mocha", "review": "Enchanting coffee experience! A mystic haven for coffee enthusiasts.", "rating": 5},
+      {"customerName": "Espresso Explorer", "review": "Great coffee, but could have more decaf options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ba"},
+    "name": "Fiery Fajita Fiesta",
+    "address": "456 Spice Lane, Fajita Town",
+    "image": "/assets/imgs/rest-32.jpg",
+    "reviews": [
+      {"customerName": "Fernando Fajita", "review": "Spicy fajitas! A fiesta for fajita lovers.", "rating": 5},
+      {"customerName": "Salsa Sizzle", "review": "Great flavors, but could be spicier.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bb"},
+    "name": "Sunset Sushi Cove",
+    "address": "789 Horizon Street, Sushi Bay",
+    "image": "/assets/imgs/rest-33.jpg",
+    "reviews": [
+      {"customerName": "Aria Sunset", "review": "Sushi with a view! A serene experience for sushi lovers.", "rating": 5},
+      {"customerName": "Ocean Breeze", "review": "Beautiful ambiance, but sushi could be more diverse.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bc"},
+    "name": "Tropical Taco Terrace",
+    "address": "456 Palm Lane, Taco Paradise",
+    "image": "/assets/imgs/rest-34.jpg",
+    "reviews": [
+      {"customerName": "Tina Taco", "review": "Tacos with a tropical twist! A paradise for taco lovers.", "rating": 5},
+      {"customerName": "Sunny Salsa", "review": "Good tacos, but salsa could be spicier.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bd"},
+    "name": "Bollywood Biryani House",
+    "address": "101 Spice Street, Curry Plaza",
+    "image": "/assets/imgs/rest-35.jpg",
+    "reviews": [
+      {"customerName": "Ravi Bollywood", "review": "Bollywood flavors in every bite! A delight for curry lovers.", "rating": 5},
+      {"customerName": "Curry Connoisseur", "review": "Authentic Indian dishes, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726be"},
+    "name": "Mystic Mousse Patisserie",
+    "address": "456 Enchantment Lane, Dessert Haven",
+    "image": "/assets/imgs/rest-36.jpg",
+    "reviews": [
+      {"customerName": "Max Mousse", "review": "Mystical desserts! A haven for mousse enthusiasts.", "rating": 5},
+      {"customerName": "Sweet Spell", "review": "Delicious pastries, but could have more sugar-free options.", "rating": 4}
+   ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bf"},
+    "name": "Noodle Nirvana House",
+    "address": "789 Zen Avenue, Noodle Zenith",
+    "image": "/assets/imgs/rest-37.jpg",
+    "reviews": [
+      {"customerName": "Nina Noodle", "review": "Noodles from heaven! A nirvana for noodle lovers.", "rating": 5},
+      {"customerName": "Zen Zest", "review": "Great noodle dishes, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c0"},
+    "name": "Rustic Ramen Retreat",
+    "address": "101 Broth Lane, Ramen Village",
+    "image": "/assets/imgs/rest-38.jpg",
+    "reviews": [
+      {"customerName": "Ronin Ramen", "review": "Authentic ramen experience! A retreat for ramen lovers.", "rating": 5},
+      {"customerName": "Umami Utopia", "review": "Delicious ramen, but could be hotter.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c1"},
+    "name": "Wholesome Wok House",
+    "address": "456 Bamboo Lane, Stir-Fry City",
+    "image": "/assets/imgs/rest-39.jpg",
+    "reviews": [
+      {"customerName": "Wendy Wok", "review": "Wholesome stir-fry! A house for wok enthusiasts.", "rating": 5},
+      {"customerName": "Stir-Fry Star", "review": "Great flavors, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c2"},
+    "name": "Vibrant Veggie Village",
+    "address": "789 Garden Lane, Veggie Haven",
+    "image": "/assets/imgs/rest-40.jpg",
+    "reviews": [
+      {"customerName": "Vicky Veggie", "review": "Vibrant vegetarian dishes! A village for veggie lovers.", "rating": 5},
+      {"customerName": "Green Goodness", "review": "Great vegetarian options, but could have more vegan choices.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c3"},
+    "name": "Fiery Fusion Grill",
+    "address": "101 Blaze Street, Fusion City",
+    "image": "/assets/imgs/rest-41.jpg",
+    "reviews": [
+      {"customerName": "Felix Fusion", "review": "Fiery fusion delights! A grill for flavor enthusiasts.", "rating": 5},
+      {"customerName": "Flame Feast", "review": "Creative fusion, but could be spicier.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c4"},
+    "name": "Sunny Salad Spot",
+    "address": "456 Garden Lane, Salad Haven",
+    "image": "/assets/imgs/rest-42.jpg",
+    "reviews": [
+      {"customerName": "Sara Salad", "review": "Sunny salads! A spot for salad enthusiasts.", "rating": 5},
+      {"customerName": "Fresh Greens", "review": "Great salads, but could have more protein options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c5"},
+    "name": "Sizzling Steak Sanctuary",
+    "address": "789 Grill Lane, Steak City",
+    "image": "/assets/imgs/rest-43.jpg",
+    "reviews": [
+      {"customerName": "Sam Steakhouse", "review": "Sizzling steaks! A sanctuary for steak lovers.", "rating": 5},
+      {"customerName": "Grill Gourmet", "review": "Delicious steaks, but could have more sauce options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c6"},
+    "name": "Mellow Mocha Lounge",
+    "address": "456 Bean Street, Coffee Haven",
+    "image": "/assets/imgs/rest-44.jpg",
+    "reviews": [
+      {"customerName": "Mia Mocha", "review": "Mellow mochas! A lounge for coffee enthusiasts.", "rating": 5},
+      {"customerName": "Bean Bliss", "review": "Great coffee, but could have more dessert options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c7"},
+    "name": "Hearty Hibachi Haven",
+    "address": "101 Flame Lane, Hibachi Town",
+    "image": "/assets/imgs/rest-45.jpg",
+    "reviews": [
+      {"customerName": "Haru Hibachi", "review": "Hearty hibachi meals! A haven for Japanese grill lovers.", "rating": 5},
+      {"customerName": "Flame Fusion", "review": "Authentic hibachi, but could have more seafood options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c8"},
+    "name": "Choco Chip Cookie Corner",
+    "address": "456 Sweet Street, Cookie City",
+    "image": "/assets/imgs/rest-46.jpg",
+    "reviews": [
+      {"customerName": "Charlie Cookie", "review": "Choco chip delights! A corner for cookie enthusiasts.", "rating": 5},
+      {"customerName": "Sweet Tooth", "review": "Delicious cookies, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c9"},
+    "name": "Crispy Croissant Café",
+    "address": "789 Flake Lane, Croissant Square",
+    "image": "/assets/imgs/rest-47.jpg",
+    "reviews": [
+      {"customerName": "Cathy Croissant", "review": "Crispy croissants! A café for croissant enthusiasts.", "rating": 5},
+      {"customerName": "Flaky Flavor", "review": "Great croissants, but could have more savory options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ca"},
+    "name": "Fiesta Fajita Fiesta",
+    "address": "101 Pepper Street, Fajita Plaza",
+    "image": "/assets/imgs/rest-48.jpg",
+    "reviews": [
+      {"customerName": "Fernando Fajita", "review": "Fiesta of flavors! A fiesta for fajita lovers.", "rating": 5},
+      {"customerName": "Pepper Party", "review": "Delicious fajitas, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cb"},
+    "name": "Piquant Pita Paradise",
+    "address": "456 Spice Lane, Pita Haven",
+    "image": "/assets/imgs/rest-49.jpg",
+    "reviews": [
+      {"customerName": "Paul Pita", "review": "Piquant pita delights! A paradise for pita lovers.", "rating": 5},
+      {"customerName": "Spice Spin", "review": "Great pitas, but could have more sauce options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cc"},
+    "name": "Zesty Zoodle Zenith",
+    "address": "789 Spiral Street, Zoodle Square",
+    "image": "/assets/imgs/rest-50.jpg",
+    "reviews": [
+      {"customerName": "Zara Zoodle", "review": "Zesty zoodles! A zenith for zoodle lovers.", "rating": 5},
+      {"customerName": "Spiral Spice", "review": "Great zoodle dishes, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cd"},
+    "name": "Luscious Lobster Lounge",
+    "address": "101 Shell Lane, Lobster Cove",
+    "image": "/assets/imgs/rest-51.jpg",
+    "reviews": [
+      {"customerName": "Larry Lobster", "review": "Luscious lobster! A lounge for lobster enthusiasts.", "rating": 5},
+      {"customerName": "Seafood Savor", "review": "Delicious lobster, but could have more seafood options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ce"},
+    "name": "Cheerful Cheesecake Corner",
+    "address": "456 Cream Lane, Cheesecake Square",
+    "image": "/assets/imgs/rest-52.jpg",
+    "reviews": [
+      {"customerName": "Charlie Cheesecake", "review": "Cheerful cheesecakes! A corner for cheesecake enthusiasts.", "rating": 5},
+      {"customerName": "Creamy Crave", "review": "Delicious cheesecakes, but could have more fruit options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c8"},
+    "name": "Sizzling Steak Sanctuary",
+    "address": "789 Grill Lane, Steak City",
+    "image": "/assets/imgs/rest-53.jpg",
+    "reviews": [
+      {"customerName": "Sam Steakhouse", "review": "Sizzling steaks! A sanctuary for steak lovers.", "rating": 5},
+      {"customerName": "Grill Gourmet", "review": "Delicious steaks, but could have more sauce options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c8"},
+    "name": "Mellow Mocha Lounge",
+    "address": "456 Bean Street, Coffee Haven",
+    "image": "/assets/imgs/rest-54.jpg",
+    "reviews": [
+      {"customerName": "Mia Mocha", "review": "Mellow mochas! A lounge for coffee enthusiasts.", "rating": 5},
+      {"customerName": "Bean Bliss", "review": "Great coffee, but could have more dessert options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726d7"},
+    "name": "Hearty Hibachi Haven",
+    "address": "101 Flame Lane, Hibachi Town",
+    "image": "/assets/imgs/rest-55.jpg",
+    "reviews": [
+      {"customerName": "Haru Hibachi", "review": "Hearty hibachi meals! A haven for Japanese grill lovers.", "rating": 5},
+      {"customerName": "Flame Fusion", "review": "Authentic hibachi, but could have more seafood options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c8"},
+    "name": "Choco Chip Cookie Corner",
+    "address": "456 Sweet Street, Cookie City",
+    "image": "/assets/imgs/rest-56.jpg",
+    "reviews": [
+      {"customerName": "Charlie Cookie", "review": "Choco chip delights! A corner for cookie enthusiasts.", "rating": 5},
+      {"customerName": "Sweet Tooth", "review": "Delicious cookies, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c9"},
+    "name": "Crispy Croissant Café",
+    "address": "789 Flake Lane, Croissant Square",
+    "image": "/assets/imgs/rest-57.jpg",
+    "reviews": [
+      {"customerName": "Cathy Croissant", "review": "Crispy croissants! A café for croissant enthusiasts.", "rating": 5},
+      {"customerName": "Flaky Flavor", "review": "Great croissants, but could have more savory options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cb"},
+    "name": "Fiesta Fajita Fiesta",
+    "address": "101 Pepper Street, Fajita Plaza",
+    "image": "/assets/imgs/rest-58.jpg",
+    "reviews": [
+      {"customerName": "Fernando Fajita", "review": "Fiesta of flavors! A fiesta for fajita lovers.", "rating": 5},
+      {"customerName": "Pepper Party", "review": "Delicious fajitas, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cb"},
+    "name": "Piquant Pita Paradise",
+    "address": "456 Spice Lane, Pita Haven",
+    "image": "/assets/imgs/rest-59.jpg",
+    "reviews": [
+      {"customerName": "Paul Pita", "review": "Piquant pita delights! A paradise for pita lovers.", "rating": 5},
+      {"customerName": "Spice Spin", "review": "Great pitas, but could have more sauce options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cc"},
+    "name": "Zesty Zoodle Zenith",
+    "address": "789 Spiral Street, Zoodle Square",
+    "image": "/assets/imgs/rest-60.jpg",
+    "reviews": [
+      {"customerName": "Zara Zoodle", "review": "Zesty zoodles! A zenith for zoodle lovers.", "rating": 5},
+      {"customerName": "Spiral Spice", "review": "Great zoodle dishes, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726cd"},
+    "name": "Luscious Lobster Lounge",
+    "address": "101 Shell Lane, Lobster Cove",
+    "image": "/assets/imgs/rest-61.jpg",
+    "reviews": [
+      {"customerName": "Larry Lobster", "review": "Luscious lobster! A lounge for lobster enthusiasts.", "rating": 5},
+      {"customerName": "Seafood Savor", "review": "Delicious lobster, but could have more seafood options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726ce"},
+    "name": "Cheerful Cheesecake Corner",
+    "address": "456 Cream Lane, Cheesecake Square",
+    "image": "/assets/imgs/rest-62.jpg",
+    "reviews": [
+      {"customerName": "Charlie Cheesecake", "review": "Cheerful cheesecakes! A corner for cheesecake enthusiasts.", "rating": 5},
+      {"customerName": "Creamy Crave", "review": "Delicious cheesecakes, but could have more fruit options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bb"},
+    "name": "Sunset Sushi Cove",
+    "address": "789 Horizon Street, Sushi Bay",
+    "image": "/assets/imgs/rest-63.jpg",
+    "reviews": [
+      {"customerName": "Aria Sunset", "review": "Sushi with a view! A serene experience for sushi lovers.", "rating": 5},
+      {"customerName": "Ocean Breeze", "review": "Beautiful ambiance, but sushi could be more diverse.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bc"},
+    "name": "Tropical Taco Terrace",
+    "address": "456 Palm Lane, Taco Paradise",
+    "image": "/assets/imgs/rest-64.jpg",
+    "reviews": [
+      {"customerName": "Tina Taco", "review": "Tacos with a tropical twist! A paradise for taco lovers.", "rating": 5},
+      {"customerName": "Sunny Salsa", "review": "Good tacos, but salsa could be spicier.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bd"},
+    "name": "Bollywood Biryani House",
+    "address": "101 Spice Street, Curry Plaza",
+    "image": "/assets/imgs/rest-65.jpg",
+    "reviews": [
+      {"customerName": "Ravi Bollywood", "review": "Bollywood flavors in every bite! A delight for curry lovers.", "rating": 5},
+      {"customerName": "Curry Connoisseur", "review": "Authentic Indian dishes, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726be"},
+    "name": "Mystic Mousse Patisserie",
+    "address": "456 Enchantment Lane, Dessert Haven",
+    "image": "/assets/imgs/rest-66.jpg",
+    "reviews": [
+      {"customerName": "Max Mousse", "review": "Mystical desserts! A haven for mousse enthusiasts.", "rating": 5},
+      {"customerName": "Sweet Spell", "review": "Delicious pastries, but could have more sugar-free options.", "rating": 4}
+   ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726bf"},
+    "name": "Noodle Nirvana House",
+    "address": "789 Zen Avenue, Noodle Zenith",
+    "image": "/assets/imgs/rest-67.jpg",
+    "reviews": [
+      {"customerName": "Nina Noodle", "review": "Noodles from heaven! A nirvana for noodle lovers.", "rating": 5},
+      {"customerName": "Zen Zest", "review": "Great noodle dishes, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c0"},
+    "name": "Rustic Ramen Retreat",
+    "address": "101 Broth Lane, Ramen Village",
+    "image": "/assets/imgs/rest-68.jpg",
+    "reviews": [
+      {"customerName": "Ronin Ramen", "review": "Authentic ramen experience! A retreat for ramen lovers.", "rating": 5},
+      {"customerName": "Umami Utopia", "review": "Delicious ramen, but could be hotter.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c1"},
+    "name": "Wholesome Wok House",
+    "address": "456 Bamboo Lane, Stir-Fry City",
+    "image": "/assets/imgs/rest-69.jpg",
+    "reviews": [
+      {"customerName": "Wendy Wok", "review": "Wholesome stir-fry! A house for wok enthusiasts.", "rating": 5},
+      {"customerName": "Stir-Fry Star", "review": "Great flavors, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c2"},
+    "name": "Vibrant Veggie Village",
+    "address": "789 Garden Lane, Veggie Haven",
+    "image": "/assets/imgs/rest-70.jpg",
+    "reviews": [
+      {"customerName": "Vicky Veggie", "review": "Vibrant vegetarian dishes! A village for veggie lovers.", "rating": 5},
+      {"customerName": "Green Goodness", "review": "Great vegetarian options, but could have more vegan choices.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c3"},
+    "name": "Fiery Fusion Grill",
+    "address": "101 Blaze Street, Fusion City",
+    "image": "/assets/imgs/rest-72.jpg",
+    "reviews": [
+      {"customerName": "Felix Fusion", "review": "Fiery fusion delights! A grill for flavor enthusiasts.", "rating": 5},
+      {"customerName": "Flame Feast", "review": "Creative fusion, but could be spicier.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726c4"},
+    "name": "Sunny Salad Spot",
+    "address": "456 Garden Lane, Salad Haven",
+    "image": "/assets/imgs/rest-73.jpg",
+    "reviews": [
+      {"customerName": "Sara Salad", "review": "Sunny salads! A spot for salad enthusiasts.", "rating": 5},
+      {"customerName": "Fresh Greens", "review": "Great salads, but could have more protein options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726d9"},
+    "name": "Bountiful BBQ Barn",
+    "address": "789 Smokehouse Lane, BBQ Junction",
+    "image": "/assets/imgs/rest-74.jpg",
+    "reviews": [
+      {"customerName": "Billy BBQ", "review": "Bountiful BBQ! A barn for barbecue enthusiasts.", "rating": 5},
+      {"customerName": "Smokehouse Symphony", "review": "Delicious barbecue, but could have more sauce options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726da"},
+    "name": "Fresh Catch Fishery",
+    "address": "456 Seafood Lane, Fish Harbor",
+    "image": "/assets/imgs/rest-75.jpg",
+    "reviews": [
+      {"customerName": "Fiona Fish", "review": "Fresh catch! A fishery for seafood enthusiasts.", "rating": 5},
+      {"customerName": "Seafood Symphony", "review": "Delicious seafood, but could have more shellfish options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726db"},
+    "name": "Crunchy Crepe Corner",
+    "address": "101 Crepe Lane, Crepe Plaza",
+    "image": "/assets/imgs/rest-76.jpg",
+    "reviews": [
+      {"customerName": "Crispy Crepe", "review": "Crunchy crepes! A corner for crepe enthusiasts.", "rating": 5},
+      {"customerName": "Crepe Carnival", "review": "Delicious crepes, but could have more fruit filling options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726dc"},
+    "name": "Bakery Bliss Bistro",
+    "address": "456 Pastry Street, Bakery City",
+    "image": "/assets/imgs/rest-77.jpg",
+    "reviews": [
+      {"customerName": "Betty Baker", "review": "Bakery bliss! A bistro for pastry enthusiasts.", "rating": 5},
+      {"customerName": "Pastry Paradise", "review": "Delicious pastries, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726dd"},
+    "name": "Golden Grains Granary",
+    "address": "789 Wheat Lane, Grain Village",
+    "image": "/assets/imgs/rest-78.jpg",
+    "reviews": [
+      {"customerName": "Gary Grain", "review": "Golden grains! A granary for grain enthusiasts.", "rating": 5},
+      {"customerName": "Grain Gala", "review": "Delicious grains, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726de"},
+    "name": "Savory Pie Palace",
+    "address": "101 Crust Lane, Pie Plaza",
+    "image": "/assets/imgs/rest-79.jpg",
+    "reviews": [
+      {"customerName": "Peter Pie", "review": "Savory pies! A palace for pie enthusiasts.", "rating": 5},
+      {"customerName": "Pie Paradise", "review": "Delicious pies, but could have more savory options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726df"},
+    "name": "Hearty Hamburger Hut",
+    "address": "456 Patty Lane, Burger Plaza",
+    "image": "/assets/imgs/rest-80.jpg",
+    "reviews": [
+      {"customerName": "Harry Hamburger", "review": "Hearty hamburgers! A hut for burger enthusiasts.", "rating": 5},
+      {"customerName": "Burger Bliss", "review": "Delicious burgers, but could have more vegetarian options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726e0"},
+    "name": "Mediterranean Mezza Mansion",
+    "address": "789 Olive Lane, Mezza Haven",
+    "image": "/assets/imgs/rest-81.jpg",
+    "reviews": [
+      {"customerName": "Mia Mezza", "review": "Mediterranean mezza! A mansion for mezza enthusiasts.", "rating": 5},
+      {"customerName": "Mezza Magic", "review": "Delicious mezza, but could have more pita options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726e1"},
+    "name": "Sunny Smoothie Spot",
+    "address": "101 Sunshine Lane, Smoothie Plaza",
+    "image": "/assets/imgs/rest-82.jpg",
+    "reviews": [
+      {"customerName": "Sandy Smoothie", "review": "Sunny smoothies! A spot for smoothie enthusiasts.", "rating": 5},
+      {"customerName": "Smoothie Sunshine", "review": "Delicious smoothies, but could have more tropical fruit options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726e2"},
+    "name": "Cheesy Chipotle Corner",
+    "address": "456 Spice Lane, Chipotle Town",
+    "image": "/assets/imgs/rest-83.jpg",
+    "reviews": [
+      {"customerName": "Chloe Chipotle", "review": "Cheesy chipotle! A corner for chipotle enthusiasts.", "rating": 5},
+      {"customerName": "Chipotle Charm", "review": "Delicious chipotle dishes, but could have more cheese options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b1"},
+    "name": "Sizzling Steakhouse",
+    "address": "789 Grill Street, Steak City",
+    "image": "/assets/imgs/rest-84.jpg",
+    "reviews": [
+      {"customerName": "Charlie Carnivore", "review": "Mouthwatering steaks! A paradise for meat lovers.", "rating": 5},
+      {"customerName": "Olivia Veggie", "review": "Limited vegetarian options, but great for steak enthusiasts.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b2"},
+    "name": "Zen Zenith Sushi",
+    "address": "456 Zen Lane, Sushi Zenith",
+    "image": "/assets/imgs/rest-85.jpg",
+    "reviews": [
+      {"customerName": "Harmony Sushi", "review": "Sushi perfection! A Zen experience for sushi lovers.", "rating": 5},
+      {"customerName": "Tranquil Roll", "review": "Fresh and delightful, but could have more unique rolls.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b4"},
+    "name": "Cafe Caramel",
+    "address": "101 Sweet Street, Dessert City",
+    "image": "/assets/imgs/rest-86.jpg",
+    "reviews": [
+      {"customerName": "Cocoa Caramel", "review": "Sweet delights! A caramel haven for dessert enthusiasts.", "rating": 5},
+      {"customerName": "Sugar Rush", "review": "Good variety, but could use more sugar-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b5"},
+    "name": "Pasta Perfection House",
+    "address": "456 Al Dente Lane, Pasta Paradise",
+    "image": "/assets/imgs/rest-87.jpg",
+    "reviews": [
+      {"customerName": "Giovanni Pasta", "review": "Authentic Italian pasta! A paradise for pasta lovers.", "rating": 5},
+      {"customerName": "Sofia Sauce", "review": "Great flavors, but could have more gluten-free options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b6"},
+    "name": "Mango Madness Bistro",
+    "address": "789 Tropical Lane, Fruit Haven",
+    "image": "/assets/imgs/rest-88.jpg",
+    "reviews": [
+      {"customerName": "Mia Mango", "review": "Delicious mango dishes! A paradise for mango enthusiasts.", "rating": 5},
+      {"customerName": "Tropical Twist", "review": "Refreshing, but could use more variety in fruit options.", "rating": 4}
+    ],
+    "rating": 4.5
+  },
+  {
+    "_id": {"$oid":"607f02c52ff0a981727726b7"},
+    "name": "Smokehouse BBQ Pit",
+    "address": "101 Smoky Street, BBQ Town",
+    "image": "/assets/imgs/rest-89.jpg",
+    "reviews": [
+      {"customerName": "Bill BBQ", "review": "Smokey goodness! A pit for BBQ enthusiasts.", "rating": 5},
+      {"customerName": "Grill Master", "review": "Great barbecue, but could have more vegetarian options.", "rating": 4}
     ],
     "rating": 4.5
   }
